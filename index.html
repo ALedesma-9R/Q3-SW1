@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- BS SETUP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- JS SETUP -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<title>Seatwork 1: Javascript Programming Concepts</title>
+</head>
+
+<body>
+ 	<center>
+  <div class="container mt-5 mb-5">
+	<h1>Length Converter: 10.52 meters</h1>
+	<img src="https://cdn-icons-png.flaticon.com/512/4229/4229049.png">
+
+	<h4>Length: 10.52</h4>
+	<h3 id="length">Click the buttons below to find convert the value of 10.52 into either yards or miles.</h3>
+
+	<!-- Yards= -->
+	<button type="button" class="btn warning" onClick="
+	const y=1.09361;
+	const x=10.52;
+	var ya=y*x;
+
+	document.getElementById('length').innerHTML= '10.52 meters in yards is  '+ ya +'.'
+
+	">IN YARDS</button>
+
+	<!-- Miles= -->
+	<button type="button" class="btn warning" onClick="
+	const y=0.00062137;
+	const x=10.52;
+	var mi=y*x;
+
+	document.getElementById('length').innerHTML= '10.52 meters in miles is '+ mi +'.'
+
+	">IN MILES</button>
+
+	<!-- Refresh -->
+	<button type="button" class="btn info" onClick="window.location.reload()">REFRESH PAGE</button>
+  </div>
+  	</center>
+
+  	<div class="footer mt-5 text-center">
+    <h2><a href="https://github.com/ALedesma-9R/Q2EX2">Aisha Ledesma | 9-Ruby</a></h2>
+  	</div>
+ </body>
+
+</html>
