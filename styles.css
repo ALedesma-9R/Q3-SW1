@@ -1,0 +1,59 @@
+body {
+	background-color: skyblue;
+}
+
+div {
+	background-color: whitesmoke;
+	align-items: center;
+	border: 5px solid;
+	border-color: gray yellow gray yellow;
+	border-radius: 10px;
+}
+
+div.footer {
+  border-color: dodgerblue;
+}
+
+/* Text */
+h1 {
+	color: yellow;
+	background-color: dodgerblue;
+	margin-top: 25px;
+}
+
+h4 {
+  color: gray;
+}
+
+h3 {
+	color: darkblue;
+}
+
+/* Buttons */
+.btn {
+  padding: 14px 28px;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.warning {
+  background-color: orange;
+  color: white;
+}
+
+.warning:hover {
+  background: white;
+  border-color: darkorange;
+  color: orange;
+}
+
+.info {
+  background: dodgerblue;
+  color: white;
+}
+
+.info:hover {
+  background: white;
+  border-color: darkblue;
+  color: dodgerblue;
+}
